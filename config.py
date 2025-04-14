@@ -11,14 +11,14 @@ from dotenv import load_dotenv
 load_dotenv()
 
 "You can get these variables from my.telegram.org"
-API_ID = int(getenv("API_ID", None))
-API_HASH = getenv("API_HASH", None)
+API_ID = int(getenv("API_ID", "10284859"))
+API_HASH = getenv("API_HASH", "b0ad58eb8b845ba0003e0d9ce5fc2196")
 
 "You can get this variable from @BotFather"
-TOKEN = getenv("TOKEN", None)
+TOKEN = getenv("TOKEN", "2096983652:AAGCPF06HIYxh1kgF6DJRziD6krrRlmNn0s")
 
 "Pyrogram (Forks) String Session, min. add one string session"
-STRING = getenv("STRING", None)
+STRING = getenv("STRING", "BQDMBnkAns37W4veXo_LjcstbniKO0UkUpet9jwsRAHy_HAsnAw0vmgAmwCBaMHZASWxlRRTsBNgG-O-DwgcR17vgKv_H18xFwDNyvfTfSCkYxNBAUdXioz1HYrGK2FjfpeweN4UMni6gZA5x2rYehxQRw9C7L14ozL-ojw7ruXrz9japy5XGaSccPndORl9d7UxYu56rKiQtHDBQZidWm-Vdgzb6UXbogx-BzltYgYjy8-c2UJyANOLhRIQGu5vo0Vk53KoZg04NJi_iK9wiakBalGzQ_Zc3TGln88eikmP3fdfzxIQiuA9TBwpR7EMm1IdvTBXAfztOjt-6SByEgeSPcRqzwAAAAHjb-HaAA")
 STRING2 = getenv("STRING2", None)
 STRING3 = getenv("STRING3", None)
 STRING4 = getenv("STRING4", None)
@@ -43,17 +43,17 @@ SESSION_STRINGS = [
 ]
 
 "Your Telegram User ID"
-OWNER_ID = int(getenv("OWNER_ID", 5938660179))
+OWNER_ID = int(getenv("OWNER_ID", 1281282633))
 
 "Channel/Group ID for logging; where logs will be sent"
-LOGGER_ID = int(getenv("LOGGER_ID", 0))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1001735663878"))
 
 "Your MongoDB URI; get it from https://cloud.mongodb.com"
-MONGO_URI = getenv("MONGO_URI", None)
+MONGO_URI = getenv("MONGO_URI", "mongodb+srv://heartbeat:Beat7Heart@heartbeat.1h1nbxv.mongodb.net/?retryWrites=true&w=majority")
 
 "Spotify dl get from @AshokShau"
-API_URL = getenv("API_URL", None)
-API_KEY = getenv("API_KEY", None)
+API_URL = getenv("API_URL", "19609edb1b9f4ed7be0c8c1342039362")
+API_KEY = getenv("API_KEY", "409e31d3ddd64af08cfcc3b0f064fcbe")
 
 "Proxy URL for yt-dlp"
 PROXY_URL = getenv("PROXY_URL", None)
@@ -65,8 +65,8 @@ DEFAULT_SERVICE = getenv("DEFAULT_SERVICE", "youtube").lower()
 DOWNLOADS_DIR = getenv("DOWNLOADS_DIR", "database/music")
 
 "Support group and channel"
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/GuardxSupport")
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/FallenProjects")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/HeartBeat_Muzic")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/HeartBeat_Offi")
 
 "If true, allows to skip all updates received while the TDLib instance was not running."
 IGNORE_BACKGROUND_UPDATES = (
