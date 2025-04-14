@@ -6,21 +6,20 @@
 from pytdbot import types
 
 import config
-
 PlayButton = types.ReplyMarkupInlineKeyboard(
     [
         [
             types.InlineKeyboardButton(
-                text="⏭️", type=types.InlineKeyboardButtonTypeCallback(b"play_skip")
+                text="‣‣I", type=types.InlineKeyboardButtonTypeCallback(b"play_skip")
             ),
             types.InlineKeyboardButton(
-                text="⏹️", type=types.InlineKeyboardButtonTypeCallback(b"play_stop")
+                text="▢", type=types.InlineKeyboardButtonTypeCallback(b"play_stop")
             ),
             types.InlineKeyboardButton(
-                text="⏸️", type=types.InlineKeyboardButtonTypeCallback(b"play_pause")
+                text="II", type=types.InlineKeyboardButtonTypeCallback(b"play_pause")
             ),
             types.InlineKeyboardButton(
-                text="🔁", type=types.InlineKeyboardButtonTypeCallback(b"play_resume")
+                text="↻", type=types.InlineKeyboardButtonTypeCallback(b"play_resume")
             ),
         ],
     ]
@@ -30,13 +29,13 @@ PauseButton = types.ReplyMarkupInlineKeyboard(
     [
         [
             types.InlineKeyboardButton(
-                text="⏭️", type=types.InlineKeyboardButtonTypeCallback(b"play_skip")
+                text="‣‣I", type=types.InlineKeyboardButtonTypeCallback(b"play_skip")
             ),
             types.InlineKeyboardButton(
-                text="⏹️", type=types.InlineKeyboardButtonTypeCallback(b"play_stop")
+                text="▢", type=types.InlineKeyboardButtonTypeCallback(b"play_stop")
             ),
             types.InlineKeyboardButton(
-                text="🔁", type=types.InlineKeyboardButtonTypeCallback(b"play_resume")
+                text="↻", type=types.InlineKeyboardButtonTypeCallback(b"play_resume")
             ),
         ],
     ]
@@ -46,31 +45,31 @@ ResumeButton = types.ReplyMarkupInlineKeyboard(
     [
         [
             types.InlineKeyboardButton(
-                text="⏭️", type=types.InlineKeyboardButtonTypeCallback(b"play_skip")
+                text="‣‣I", type=types.InlineKeyboardButtonTypeCallback(b"play_skip")
             ),
             types.InlineKeyboardButton(
-                text="⏹️", type=types.InlineKeyboardButtonTypeCallback(b"play_stop")
+                text="▢", type=types.InlineKeyboardButtonTypeCallback(b"play_stop")
             ),
             types.InlineKeyboardButton(
-                text="⏸️", type=types.InlineKeyboardButtonTypeCallback(b"play_pause")
+                text="II", type=types.InlineKeyboardButtonTypeCallback(b"play_pause")
             ),
         ],
     ]
 )
 
 SupportButton = types.ReplyMarkupInlineKeyboard(
-    [
         [
-            types.InlineKeyboardButton(
-                text="❄ Channel",
-                type=types.InlineKeyboardButtonTypeUrl(config.SUPPORT_CHANNEL),
-            ),
-            types.InlineKeyboardButton(
-                text="✨ Group",
-                type=types.InlineKeyboardButtonTypeUrl(config.SUPPORT_GROUP),
-            ),
+                [
+                        types.InlineKeyboardButton(
+                                text="💕 𝐍𖽞𖾓𖾟𖽙𖾖ᴋ 🦋",
+                                type=types.InlineKeyboardButtonTypeUrl(config.SUPPORT_CHANNEL),
+                        ),
+                        types.InlineKeyboardButton(
+                                text="💕 𝐂𖽻𖽖𖾓 𝐆𖽷𖽙𖽪𖽳 🦋",
+                                type=types.InlineKeyboardButtonTypeUrl(config.SUPPORT_GROUP),
+                        ),
+                ]
         ]
-    ]
 )
 
 
@@ -83,24 +82,24 @@ def add_me_button(username: str) -> types.ReplyMarkupInlineKeyboard:
         types.ReplyMarkupInlineKeyboard: Configured inline keyboard markup
     """
     return types.ReplyMarkupInlineKeyboard(
-        [
             [
-                types.InlineKeyboardButton(
-                    text="Add me to your group",
-                    type=types.InlineKeyboardButtonTypeUrl(
-                        f"https://t.me/{username}?startgroup=true"
-                    ),
-                ),
-            ],
-            [
-                types.InlineKeyboardButton(
-                    text="❄ Channel",
-                    type=types.InlineKeyboardButtonTypeUrl(config.SUPPORT_CHANNEL),
-                ),
-                types.InlineKeyboardButton(
-                    text="✨ Group",
-                    type=types.InlineKeyboardButtonTypeUrl(config.SUPPORT_GROUP),
-                ),
-            ],
-        ]
+                    [
+                            types.InlineKeyboardButton(
+                                    text="💕 𝐊𖽹𖽴𖽡𖽖𖽳 𝐌𖾔 🦋",
+                                    type=types.InlineKeyboardButtonTypeUrl(
+                                            f"https://t.me/{username}?startgroup=true"
+                                    ),
+                            ),
+                    ],
+                    [
+                            types.InlineKeyboardButton(
+                                    text="💕 𝐍𖽞𖾓𖾟𖽙𖾖ᴋ 🦋",
+                                    type=types.InlineKeyboardButtonTypeUrl(config.SUPPORT_CHANNEL),
+                            ),
+                            types.InlineKeyboardButton(
+                                    text="💕 𝐂𖽻𖽖𖾓 𝐆𖽷𖽙𖽪𖽳 🦋",
+                                    type=types.InlineKeyboardButtonTypeUrl(config.SUPPORT_GROUP),
+                            ),
+                    ],
+            ]
     )
