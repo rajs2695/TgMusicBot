@@ -477,7 +477,7 @@ async def callback_query(c: Client, message: types.UpdateNewCallbackQuery) -> No
         if data == "play_skip":
             try:
                 await call.play_next(chat_id)
-                await send_response("⏭️ Song skipped", delete=True)
+                await send_response("⋆˙⟡𝐒𝗵𝗮𝗯𝗯𝗮𝗮...  𝐈𝗽𝗼𝘃𝗲 𝐊𝗮𝗻𝗻𝗮 𝐊𝗮𝘁𝘁𝗵𝘂𝘁𝗵𝗲 ⨾ଓ", delete=True)
             except Exception as e:
                 LOGGER.error(f"Could not skip song: {e}")
                 await send_response("⚠️ Error: Next song not found to play.", alert=True)
