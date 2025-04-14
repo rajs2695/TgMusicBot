@@ -230,7 +230,7 @@ async def _handle_telegram_file(c: Client, _: types.Message, reply: types.Messag
 
     _song = PlatformTracks(tracks=[MusicTrack(
             name=file_name,
-            artist="AshokShau",
+            artist="rajeshrakis",
             id=reply.remote_unique_file_id,
             year=0,
             cover="",
@@ -288,7 +288,7 @@ async def play_audio(c: Client, msg: types.Message) -> None:
     url = await get_url(msg, reply)
     args = extract_argument(msg.text)
 
-    reply_message = await msg.reply_text("💕 ​🇮​𝐈🇷​​🇺​​🇳​​🇬​​🇦​ ​🇧​𝐁🇭​​🇦​​🇮​... 🦋")
+    reply_message = await msg.reply_text("💕 ​​𝐈🇷​​🇺​​🇳​​🇬​​🇦​ ​𝐁🇭​​🇦​​🇮... 🦋")
     if isinstance(reply_message, types.Error):
         LOGGER.warning(f"Error sending reply: {reply_message}")
         return
