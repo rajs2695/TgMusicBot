@@ -21,7 +21,7 @@ from src.modules.utils.play_helpers import (
 from src.pytgcalls import call
 
 
-@Client.on_message(filters=Filter.command("start"))
+@Client.on_message(filters=Filter.command("xstart"))
 async def start_cmd(c: Client, message: types.Message):
     me: types.User = await c.getMe()
     chat_id = message.chat_id
@@ -51,7 +51,7 @@ Your ultimate music companion for Telegram voice chats!
     return None
 
 
-@Client.on_message(filters=Filter.command("help"))
+@Client.on_message(filters=Filter.command("xhelp"))
 async def help_cmd(c: Client, message: types.Message):
     text = f"""<b>Help for {c.me.first_name}:</b>
 <b>/start:</b> Start the bot.
@@ -206,7 +206,7 @@ async def reload_cmd(c: Client, message: types.Message):
     return
 
 
-@Client.on_message(filters=Filter.command("ping"))
+@Client.on_message(filters=Filter.command("xping"))
 async def ping_cmd(c: Client, message: types.Message):
     start_time = time.time()
     reply = await message.reply_text("🏓 Pong!")
@@ -221,7 +221,7 @@ async def ping_cmd(c: Client, message: types.Message):
 
 @Client.on_message(filters=Filter.command("song"))
 async def song_cmd(c: Client, message: types.Message):
-    reply = await message.reply_text("🎶 USE: @SpTubeBot")
+    reply = await message.reply_text("🎶 USE: @thedakkidaikathaval_bot")
     if isinstance(reply, types.Error):
         c.logger.warning(f"Error sending message: {reply}")
 
