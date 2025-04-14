@@ -15,7 +15,7 @@ API_ID = int(getenv("API_ID", "10284859"))
 API_HASH = getenv("API_HASH", "b0ad58eb8b845ba0003e0d9ce5fc2196")
 
 "You can get this variable from @BotFather"
-TOKEN = getenv("TOKEN", "2096983652:AAGCPF06HIYxh1kgF6DJRziD6krrRlmNn0s")
+TOKEN = getenv("TOKEN", "6737983945:AAFH_g1-HtZT4ZHc5-RGDOmLBbF_gFGIzr8")
 
 "Pyrogram (Forks) String Session, min. add one string session"
 STRING = getenv("STRING", "BQDMBnkAns37W4veXo_LjcstbniKO0UkUpet9jwsRAHy_HAsnAw0vmgAmwCBaMHZASWxlRRTsBNgG-O-DwgcR17vgKv_H18xFwDNyvfTfSCkYxNBAUdXioz1HYrGK2FjfpeweN4UMni6gZA5x2rYehxQRw9C7L14ozL-ojw7ruXrz9japy5XGaSccPndORl9d7UxYu56rKiQtHDBQZidWm-Vdgzb6UXbogx-BzltYgYjy8-c2UJyANOLhRIQGu5vo0Vk53KoZg04NJi_iK9wiakBalGzQ_Zc3TGln88eikmP3fdfzxIQiuA9TBwpR7EMm1IdvTBXAfztOjt-6SByEgeSPcRqzwAAAAHjb-HaAA")
