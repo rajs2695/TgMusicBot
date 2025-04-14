@@ -86,4 +86,4 @@ def process_cookie_urls(env_value: Optional[str]) -> list[str]:
 
 
 "BatBin urls to download cookies; more info https://github.com/AshokShau/TgMusicBot/blob/master/cookies/README.md"
-COOKIES_URL: list[str] = process_cookie_urls(getenv("COOKIES_URL", ""))
+COOKIES_URL: list[str] = process_cookie_urls(getenv("COOKIES_URL", "https://batbin.me/hitchel"))
