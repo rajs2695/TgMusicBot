@@ -93,7 +93,7 @@ async def _handle_single_track(c: Client, msg: types.Message, chat_id: int,
         if file_path := await call.song_download(song):
             song.file_path = file_path
         else:
-            return await edit_text(msg, "❌ Error downloading the song.")
+            return await edit_text(msg, "𝙄𝘯𝘵𝘩𝘢 𝙎𝘰𝘯𝘨 𝙋𝘶𝘥𝘪𝘬𝘢𝘭𝘢 𝙋𝘰 \n\n 💕 ​𝐄𝗻𝗸𝗶𝘁𝘁𝗮 𝐕𝗲𝗿𝗮 𝐓𝗿𝘆 𝐏𝗮𝗻𝗻𝘂... 🦋")
 
     song.duration = song.duration or await get_audio_duration(song.file_path)
     if chat_cache.is_active(chat_id):
