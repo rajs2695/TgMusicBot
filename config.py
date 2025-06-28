@@ -15,10 +15,10 @@ API_ID = int(getenv("API_ID", "10284859"))
 API_HASH = getenv("API_HASH", "b0ad58eb8b845ba0003e0d9ce5fc2196")
 
 "You can get this variable from @BotFather"
-TOKEN = getenv("TOKEN", "6737983945:AAFH_g1-HtZT4ZHc5-RGDOmLBbF_gFGIzr8")
+TOKEN = getenv("TOKEN", "2096983652:AAHz41orhz9RrWscwg_WwSCp0_OhP-zLmDY")
 
 "Pyrogram (Forks) String Session, min. add one string session"
-STRING = getenv("STRING", "BQDMBnkAns37W4veXo_LjcstbniKO0UkUpet9jwsRAHy_HAsnAw0vmgAmwCBaMHZASWxlRRTsBNgG-O-DwgcR17vgKv_H18xFwDNyvfTfSCkYxNBAUdXioz1HYrGK2FjfpeweN4UMni6gZA5x2rYehxQRw9C7L14ozL-ojw7ruXrz9japy5XGaSccPndORl9d7UxYu56rKiQtHDBQZidWm-Vdgzb6UXbogx-BzltYgYjy8-c2UJyANOLhRIQGu5vo0Vk53KoZg04NJi_iK9wiakBalGzQ_Zc3TGln88eikmP3fdfzxIQiuA9TBwpR7EMm1IdvTBXAfztOjt-6SByEgeSPcRqzwAAAAHjb-HaAA")
+STRING = getenv("STRING", "BQGJMTYALFX3dQvrOJlHh_mm12o2A-zJL3mH43MY8QkaXiTXd0uAIhdgA5kAZuqkPiRVDyaLHd6XCQDbllXGSsTu9C-yIIc-bmDDLVQ3ZekqCnchluPP6BHV1vKM6Hn4Pgph9tJ7mmdWumI2e_wpzbwloaEP4OAjIZoti1jF8_BpJPBCAZrQfLCglBpRltjiFaDh-lY8p95TPWFwdhyyDYkHCGNIbf3Rcs7VF1jIyprsExSczs9licjn1VUeWNcLbgS6sYzc7ZwrWFEsprJUjn_Y3rVr3Bj4uyDy55o2qNtn3Mb5xSU2bwY0gn3Kovc8mWOOjYI6d0zSr93ddH-JNjwNxxZxwgAAAAHSHPeVAA")
 STRING2 = getenv("STRING2", None)
 STRING3 = getenv("STRING3", None)
 STRING4 = getenv("STRING4", None)
@@ -52,8 +52,8 @@ LOGGER_ID = int(getenv("LOGGER_ID", "-1001735663878"))
 MONGO_URI = getenv("MONGO_URI", "mongodb+srv://heartbeat:Beat7Heart@heartbeat.1h1nbxv.mongodb.net/?retryWrites=true&w=majority")
 
 "Spotify dl get from @AshokShau"
-API_URL = getenv("API_URL", "19609edb1b9f4ed7be0c8c1342039362")
-API_KEY = getenv("API_KEY", "409e31d3ddd64af08cfcc3b0f064fcbe")
+API_URL = getenv("API_URL", "487064a94b42419987704fe395492701")
+API_KEY = getenv("API_KEY", "ec6615520a9d47d7865ec1e08b39915b")
 
 "Proxy URL for yt-dlp"
 PROXY_URL = getenv("PROXY_URL", None)
